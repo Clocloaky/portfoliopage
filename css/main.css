@@ -1,3 +1,46 @@
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+
+}
+
+.about h1 {
+    color: #071c30;
+    margin: 1em 0em 2em 0em;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+
+.about span {
+    display: block;
+    color: #071c30;
+    position: absolute;
+    left: 115px;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #A2D2FF;
+}
+
+.about .desc h3 {
+    color: #FFAFCC;
+}
+
+.about .desc p {
+    line-height: 2;
+    color: #071c30;
+}
+
+.maincolor {
+    background-color: #fdf5f8;
+}
+
 .bg-dark {
     background-color: #343a40 !important
 }
@@ -6,13 +49,38 @@
     background-color: #007bff !important
 }
 
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+
+.description h1 {
+    color: #071c30;
+}
+
+.description p {
+    color: #fdf5f8;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #FFAFCC;
+    background: #FFAFCC;
+    color: #fdf5f8;
+}
+
 /*header style*/
-.header{
+.header {
     background-image: url('../images/headerback.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-   }
+}
 
 .navbar {
     background: #A2D2FF;
@@ -20,7 +88,7 @@
 
 .nav-link,
 .navbar-brand {
-    color: #27415a;
+    color: #071c30;
     cursor: pointer;
 }
 
@@ -41,13 +109,11 @@
     background: #FFAFCC !important;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     min-height: 100%;
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(244, 244, 244, 0.5);
-   }
-
-
+    background: rgba(244, 244, 244, 0.4);
+}
