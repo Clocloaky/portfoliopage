@@ -11,7 +11,8 @@
 }
 
 .about img {
-    height: 100%;
+    display: block;
+    height: auto;
     width: 100%;
     border-radius: 50%
 }
@@ -58,7 +59,7 @@
 }
 
 .description h1 {
-    color: #071c30;
+    color: #FFAFCC;
 }
 
 .description p {
@@ -80,6 +81,10 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+}
+
+.img-with-text {
+    text-align: center;
 }
 
 .navbar {
@@ -115,5 +120,29 @@
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(244, 244, 244, 0.4);
+    background: rgba(122, 118, 118, 0.4);
+}
+
+/*Portfolio*/
+.portfolio {
+    margin: 4em 0;
+    position: relative;
+    background-image: url('../images/headerback.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio h1 {
+    color: #FFAFCC;
+    margin: 2em;
+}
+
+.portfolio img {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 1em;
+
+
 }
