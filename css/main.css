@@ -39,7 +39,7 @@
 }
 
 .maincolor {
-    background-color: #fdf5f8;
+    background-color: #ffffff;
 }
 
 .bg-dark {
@@ -48,6 +48,16 @@
 
 .bg-primary {
     background-color: #007bff !important
+}
+
+.contact {
+    margin: 4em 0;
+    position: relative;
+}
+
+.about h1 {
+    color: #071c30;
+    margin: 1em 0em 2em 0em;
 }
 
 .description {
@@ -126,6 +136,7 @@
 /*Portfolio*/
 .portfolio {
     margin: 4em 0;
+    padding-bottom: 4em;
     position: relative;
     background-image: url('../images/headerback.jpg');
     background-attachment: fixed;
@@ -138,11 +149,41 @@
     margin: 2em;
 }
 
-.portfolio img {
+.portfolio-img-container {
+    position: relative;
+}
+
+.portfolio-img-container::after {
+    content: "";
     display: block;
-    height: auto;
+    padding-bottom: 100%;
+}
+
+.portfolio img {
+    position: absolute;
     width: 100%;
-    margin: 1em;
+    height: 100%;
+    object-fit: cover;
+}
 
+.portfolio .card {
+    box-shadow: 0 0 20px rgb(122, 118, 118);
+}
 
+.portfolio .card img {
+    width: 100%;
+    padding: 10px;
+}
+
+.portfolio .card-title {
+    color: #071c30;
+    inline-size: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.portfolio .card-body {
+    padding: 1em;
 }
