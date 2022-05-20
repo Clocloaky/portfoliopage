@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "Irene Jiang",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "node-sass": "^6.0.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
