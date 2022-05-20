@@ -53,14 +53,29 @@
 .contact {
     margin: 4em 0;
     position: relative;
+    
 }
 
+
+
 .cover-image {
-    height: 96vh;
+    height: 100vh;
     width: 100%;
     background-attachment: fixed;
     background-size: cover;
     background-image: url('../images/headerback.jpg');
+}
+
+.cover-image-portfolio {
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../images/headerback.jpg');
+}
+
+.image-container-portfolio {
+    background: rgba(122, 118, 118, 0.5);
+
 }
 
 .about h1 {
@@ -136,7 +151,7 @@
 
 .image-container {
     background: rgba(122, 118, 118, 0.5);
-    height: 96vh;
+    height: 100vh;
 }
 
 /*Portfolio*/
@@ -148,6 +163,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    height: 100vh;
 }
 
 .portfolio h1 {
@@ -155,7 +171,7 @@
     margin: 2em;
 }
 
-.portfolio-img-container {
+/*.portfolio-img-container {
     position: relative;
 }
 
@@ -193,3 +209,4 @@
 .portfolio .card-body {
     padding: 1em;
 }
+*/
